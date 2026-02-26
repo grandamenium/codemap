@@ -1,0 +1,14 @@
+{
+  "tool_name": "codemap",
+  "one_liner": "Scans a project directory and outputs structured markdown with file tree, module descriptions, entry points and dependency graph - designed for AI coding agents to quickly understand unfamiliar repos",
+  "problem": "AI coding agents waste time exploring unfamiliar codebases file-by-file with no structured overview",
+  "solution": "Single command generates a comprehensive codebase map with file tree, module descriptions, entry points and dependency graph as structured markdown",
+  "tech_stack": [],
+  "estimated_hours": 2.0,
+  "content_angle": "",
+  "seo_keywords": [],
+  "similar_tools": [],
+  "differentiation": "",
+  "source": "manual",
+  "created_at": "2026-02-26T02:35:33.374860"
+}

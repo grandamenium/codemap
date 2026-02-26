@@ -1,0 +1,62 @@
+{
+  "tool_name": "codebase-map-generator---scans",
+  "tool_type": "cli",
+  "total": 7,
+  "passed": 6,
+  "failed": 0,
+  "errors": 0,
+  "setup_success": true,
+  "setup_error": "",
+  "duration_ms": 3031,
+  "test_cases": [
+    {
+      "name": "syntax_check",
+      "status": "passed",
+      "duration_ms": 38,
+      "message": "All 2 Python files have valid syntax",
+      "details": ""
+    },
+    {
+      "name": "readme_exists",
+      "status": "passed",
+      "duration_ms": 0,
+      "message": "README.md exists (2696 chars)",
+      "details": ""
+    },
+    {
+      "name": "secret_scan",
+      "status": "passed",
+      "duration_ms": 2,
+      "message": "No hardcoded secrets detected in 2 file(s)",
+      "details": ""
+    },
+    {
+      "name": "import_check",
+      "status": "passed",
+      "duration_ms": 23,
+      "message": "Module 'codemap' imports successfully",
+      "details": ""
+    },
+    {
+      "name": "help_flag",
+      "status": "passed",
+      "duration_ms": 28,
+      "message": "--help exits 0 with usage information",
+      "details": ""
+    },
+    {
+      "name": "no_args_behavior",
+      "status": "passed",
+      "duration_ms": 50,
+      "message": "Tool handles no-args gracefully (exit code 0)",
+      "details": ""
+    },
+    {
+      "name": "tool_own_pytest",
+      "status": "skipped",
+      "duration_ms": 12,
+      "message": "pytest not installed in tool's venv, skipping",
+      "details": ""
+    }
+  ]
+}
